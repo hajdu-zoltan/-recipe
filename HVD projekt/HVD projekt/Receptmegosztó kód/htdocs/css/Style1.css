@@ -1,0 +1,244 @@
+body {
+  background-image: url("/img/bg3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.row {
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center
+}
+
+
+.column {
+  border: 1px solid rgb(255, 254, 254);
+  width: 30%;
+  height: 30%;
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: #FFFFFF;
+  padding: 10px;
+  height: 100%;
+  margin: 5%;
+}
+
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(8, 8, 8);
+  line-height: 24px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 32px;
+  padding: 20px 0;
+  text-align: center;
+  color: rgb(165, 162, 162);
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 24px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+
+section {
+  background-color: #fff;
+  width: 94%;
+  padding: 20px 3%;
+}
+
+.index-intro p {
+  text-align: center;
+}
+
+.index-categories-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.index-categories-list div {
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 100%;
+  border: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div.index-categorias-div {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(247, 244, 244, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+div.index-categorias-div img {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 30px;
+  transition: 1s ease;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.signup-form {
+  width: 50%;
+  margin: 10% auto;
+}
+
+.signup-form-form {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: 5px auto;
+}
+
+.signup-form p {
+  text-align: center;
+  padding-bottom: 40px;
+  color: #007ecc;
+}
+
+.signup-form form {
+  width: 70%;
+}
+
+.signup-form form input {
+  width: calc(100% - 16px);
+  padding: 6px;
+  margin-bottom: 4px;
+}
+
+.signup-form form button {
+  display: block;
+  padding: 10px 20px;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+div.foetel-recept {
+  border: 1px solid rgb(255, 254, 254);
+  width: 350px;
+  height: 400px;
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: #FFFFFF;
+  margin: 5%;
+  margin-left: 10%;
+}
+
+div.column img {
+  width: 100%;
+  height: 300px;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+div.column1 {
+  border: 1px solid rgb(255, 254, 254);
+  width: 350px;
+  height: 400px;
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: #FFFFFF;
+  padding: 10px;
+  height: 100%;
+  margin: 5%;
+  opacity: 0.7;
+}
+
+#img {
+  position: relative;
+  top: auto;
+  width: 100%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+div.ki_leiras {
+  border: 1px solid rgb(255, 254, 254);
+  width: 600px;
+  height: 700px;
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: #FFFFFF;
+  padding: 10px;
+  margin: 5%;
+}
+
+div.ki_leiras img {
+  width: 100%;
+  height: 50%;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#kisDiv11 {
+  position: relative;
+  top: auto;
+  width: 100%;
+  height: 100px;
+  margin: 0%;
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+div.gomb {
+  background-color: rgba(3, 245, 15, 0.7);
+  border-width: 2px;
+  border-radius: 11px;
+}
